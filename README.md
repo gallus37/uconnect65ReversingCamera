@@ -4,6 +4,8 @@ Reversing camera for uConnect 6.5"
 # Disclaimer
 All below-described actions can render car's stereo completly disabled, scripts were tested, but it cannot be ensured that these work on all nor any hardware/software combination. Proceed at own risk.
 
+Credits for gaining root access goes to author of https://forum.xda-developers.com/t/uconnect-6-5-alfa-fiat-root-access.3828426/
+
 # Intro
 To execute scripts on uConnect device please follow instructions from XDA forum: https://forum.xda-developers.com/t/uconnect-6-5-alfa-fiat-root-access.3828426/
 Basically one need modified swdl.iso from linked Mega drive `1 Magic Files`->`1 Magic - Alfa pre UPD (17.07.55).zip` this file (swdl.iso) should be placed in root directory of FAT32-formatted pendrive with at least 4GB of capacity. If this is true, then `script.lua` will be executed. After execution user is prompted to proceed with software update, to which **one shall answer NO**. It is recommended to switch on radio with button and wait approximately 2 minutes for boot process to finish (estabilished bluetooth connection to smartphone is good indicator of finished boot) before inserting flash drive into USB socket.
